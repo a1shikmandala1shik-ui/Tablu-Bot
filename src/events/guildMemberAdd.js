@@ -102,9 +102,9 @@ export default {
             }
         }
         
-        if (config?.verification?.enabled || config?.verification?.autoVerify?.enabled) {
-            await handleVerification(member, guild, config.verification, member.client);
-        }
+        // if (config?.verification?.enabled || config?.verification?.autoVerify?.enabled) {
+        //     await handleVerification(member, guild, config.verification, member.client);
+        // }
 
         try {
             await logEvent({
